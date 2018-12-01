@@ -7,15 +7,17 @@ It runs pipelines of actions on a model.
 The model is written in MOF (a subset of UML). It must conform to the 2013-10-01 version of UML (2.4) and must be exported in an XMI file which conforms to the 2013-10-01 version of XMI.
 These are the default values of MagicDraw™ 18.5. 
 This project contains a stand-alone library which can be embedded in a Java program.
-A convenient Maven pluggin is provided as well.
+A convenient Maven plugin is provided as well.
 
 ## Prerequisites
 The library needs Java ≥ 8
+
 The Maven plugin needs Maven ≥ 3
 
 ## Installation
 After downloading, run the install.sh script.
-No .bat script is provided. Instead, run the commands :
+
+For Windows, no .bat script is provided. Instead, run the commands :
 ```
 mvn install:install-file -Dfile=ete-lib-impl-3.1-jar-with-dependencies.jar -DgroupId=fr.insset.jeanluc -DartifactId=ete-lib-impl -Dversion=3.1 -Dpackaging=jar
 
