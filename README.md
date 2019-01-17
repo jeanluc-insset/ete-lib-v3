@@ -24,7 +24,7 @@ mvn install:install-file -Dfile=ete-lib-impl-3.1-jar-with-dependencies.jar -Dgro
 mvn install:install-file -Dfile=ete-lib-impl-3.1-jar-with-dependencies.jar -DgroupId=fr.insset.jeanluc -DartifactId=ete-maven-plugin  -Dversion=3.1 -Dpackaging=maven-plugin
 ```
 ## Usage
-Currently, we don't provide any documentation for embedding the library but for use through the Maven plugin.
+Currently, we don't provide any documentation for embedding the library but for use in a Maven process.
 
 ### Adding the plugin to the project
 Add the following declaration to the build/plugins section of the pom.xml file :
